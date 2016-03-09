@@ -14,15 +14,10 @@ repositories {
 
 dependencies {
     compile "org.springframework:spring-core:${springframeworkVersion}"
-    compile "org.springframework:spring-aop:${springframeworkVersion}"
-    compile "org.springframework:spring-expression:${springframeworkVersion}"
     compile "org.springframework:spring-context:${springframeworkVersion}"
     compile "org.springframework:spring-tx:${springframeworkVersion}"
     compile "org.springframework:spring-context-support:${springframeworkVersion}"
-    compile "org.springframework:spring-support:2.0.8"
     compile 'org.quartz-scheduler:quartz:2.2.2'
-
-// TODO clean up dependencies
 
     compile 'javax.inject:javax.inject:1'
     compile 'edu.washington.cs.types.checker:checker-framework:1.7.0'
