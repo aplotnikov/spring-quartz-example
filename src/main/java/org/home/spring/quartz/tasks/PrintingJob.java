@@ -7,6 +7,6 @@ import org.springframework.scheduling.quartz.QuartzJobBean;
 public class PrintingJob extends QuartzJobBean {
     @Override
     protected void executeInternal(JobExecutionContext context) throws JobExecutionException {
-        ScheduleLog.append("I'm printing job...\n");
+        System.out.println("I'm printing job...");
     }
 }
