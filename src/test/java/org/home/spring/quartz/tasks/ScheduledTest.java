@@ -1,9 +1,9 @@
 package org.home.spring.quartz.tasks;
 
-import org.home.spring.quartz.context.ApplicationContext;
+import org.home.spring.quartz.context.AnnotationBasedApplicationContext;
 import org.springframework.test.context.ContextConfiguration;
 
-@ContextConfiguration(classes = ApplicationContext.class)
+@ContextConfiguration(classes = AnnotationBasedApplicationContext.class)
 public class ScheduledTest extends AbstractRepeatableTest {
 
 }
